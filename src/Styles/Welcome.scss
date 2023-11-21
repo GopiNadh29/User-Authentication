@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+    padding:0%; 
+    height: 100%;
+}
+.Welcomepage{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.TextContainer{
+    text-align: center;
+}
+
+button{
+    width:15rem;
+    height: 3rem;
+    font-weight: 900;
+    font-size:medium;
+    border: none;
+    background-color: rgba(165, 165, 165, 0.494);
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.Btn{
+    display: flex;
+    flex-direction:row;
+    column-gap: 5rem;
+}
+.Signin:hover{
+background-color:#2b7fec;
+    color: whitesmoke;
+}
+
+.caa:hover{
+    background-color:#42b72a;
+        color: whitesmoke;
+    }
